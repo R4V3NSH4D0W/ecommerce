@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>HTML DOM Events</h1>
+    <h2>The onclick Event</h2>
+
+    <p>Field1: <input type="text" id="field1" value="Hello World!"></p>
+    <p>Field2: <input type="text" id="field2"></p>
+
+    <p>Clicking "Copy" triggers a function that copies the text value from Field1 to Field2.</p>
+
+    <button onclick="myFunction()">Copy</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+
+</body>
+
+</html>

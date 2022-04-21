@@ -1,0 +1,178 @@
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <title>All product- InfoSys</title>
+    <link rel="stylesheet" href="ecommercestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-left">
+                <h1>INFO<span>SYS</span></h1>
+            </div>
+            <div class="logo">
+                <img scr="images/log.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li>
+                        <a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li> <a href="">About</a></li>
+                    <li> <a href="">Content</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+    <!--cart items detail-->
+    <div class="small-container cart-page">
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotle</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-1.jpg" alt="">
+                        <div>
+                            <p>Red printed T-shirt</p>
+                            <small>price: $50.00</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-2.jpg" alt="">
+                        <div>
+                            <p>Red printed T-shirt</p>
+                            <small>price: $50.00</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-3.jpg" alt="">
+                        <div>
+                            <p>Red printed T-shirt</p>
+                            <small>price: $50.00</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>SUbtotal</td>
+                    <td>$150.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$165.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Downlaod our App</h3>
+                    <p>
+                        Download App for Andorid and Ios moblie phone.
+                    </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h1>INFO <span>SYS</span></h1>
+                    <p>
+                        Our purpose is to sustainable Make the pleasure and Benefits of products accessible to the Many.
+
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow US</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">©Copyright 2021 -infosys</p>
+        </div>
+    </div>
+    <!-----------js for toggle menu----------->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuitems.style.maxHeight = "0px") {
+                menuitems.style.maxHeight = "200px";
+            } else {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

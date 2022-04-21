@@ -1,0 +1,27 @@
+*{padding: 0%;margin: 0%;box-sizing: border-box;}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Akaya Kanadaka', cursive;*/
+
+}
+:root{
+    --primary:indianred;
+    --secondary:rgba(15,10,29,0.859);
+    --light:#2f3640;
+}
+header{
+    width: 100%;
+    height:100vh;
+}
+.nav1{
+    width:100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 3px grey;
+    text-align: center;
+
+}
